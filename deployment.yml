@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: fastapi-app
-          image: shubhsardana29/fastapi-mongo:latest
+          image: shubhsardana29/fastapi-mongo
           ports:
             - containerPort: 8000
           env:
